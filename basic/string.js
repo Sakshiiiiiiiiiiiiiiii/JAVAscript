@@ -4,6 +4,7 @@ console.log(name+repo); //old way
 console.log(repo);
 
 //string morden way
+
 console.log(`helo i am ${name} my repo is ${repo}`);
 
 console.log(repo[1]); //2nd index but it will not work
