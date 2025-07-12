@@ -1,5 +1,8 @@
+// theat all js code newer version of javascript
 "use strict";
-//alert(3+3) // we are using nodejs, not browser
+
+//alert(3+3) work in browser with html
+// we are using nodejs, not browser so its show error
 
 console.log(3
     +3
@@ -16,7 +19,8 @@ console.log(3
 //non-premitive datatype
     //object
 
-    let fname="saskkkkk" //tell var type
+    let fname="saskkkkk" 
+    //tell var type
     console.log(typeof fname);
     console.log(typeof null); //object
     console.log(typeof undefine); //undefine
