@@ -5,7 +5,7 @@
 // we are using nodejs, not browser so its show error
 
 console.log(3
-    +3
+    +5
 ) // correct but not readable
 
  // datatypes
