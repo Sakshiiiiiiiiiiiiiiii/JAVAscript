@@ -42,11 +42,14 @@ function add2(num1,num2)//parameter
     return num1+num2 
 }
 const num4=add2(5,9)
-// console.log("result : " + res);// error
-console.log("result : " + num4); //result : 14
+// console.log("result : " + res);// error                  
+console.log("result : " + num4); //result : 14 
 
-function loginuser(username)
+function loginuser(username) 
 {
-    
+ return`${username} just logged in`
 }
 
+console.log(loginuser("sakshi"));
+// ******console.log(loginuser()); //output undefined just logged in
+//
