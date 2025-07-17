@@ -42,6 +42,7 @@ for (let i = 0; i < 3; i++) {
 //i: 2, j: 2
 //Inner loop iteration: 2 and outer loop iteration: 2
 
+/*
 let myArray = [1, 2, 4, 5];
 //for of loop
 for (let index = 0; index < myArray.length; index++) {
@@ -50,6 +51,7 @@ for (let index = 0; index < myArray.length; index++) {
     
 }
 //output: 1,2,3,4,5
+*/
 
 //break and continue
 for (let i = 0; i < 10; i++) {
@@ -64,3 +66,32 @@ for (let i = 0; i < 10; i++) {
 }
 //output for break: 0,1,2,3,4
 //output for continue: 0,1,2,3,4,6,7,8,9
+
+//while loop
+
+let j = 0;
+while (j < 10) {
+    // console.log(j);
+
+    j=j+2;
+}
+//output: 0,2,4,6,8
+let myArray = [1, 2, 3, 4, 5];
+let arr=0;
+while (arr < myArray.length) {
+    console.log(myArray[arr]);
+    arr++;
+}
+//output: 1,2,3,4,5
+
+//do while loop
+let k = 0;
+// let k=20;
+do {
+    console.log(k);
+    k+3;
+}
+while (k < 20);
+//output: 0,3,6,9,12,15,18
+//output: when k=20
+//20
