@@ -9,9 +9,9 @@
         color: white;
     }
     </style>
-</head>
+</head> 
 <body  class="bg-black">
-   <!-- dom full form is document object model -->
+   <!-- dom full form is document object model --> 
 
     <div>
         <h1 id="title" class="heading">
@@ -20,7 +20,66 @@
         <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
         </p>
+        <input type="text" id="inputField" placeholder="Enter text here">
+        <ul>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+
+
+        </ul>
     </div>
 </body>
 </html>
+<!-- 
+
+************innerHTML is used to get or set the HTML content of an element.
+The innerHTML property allows you to manipulate the HTML content of an element, including adding, removing
+or modifying elements and text within that element.
+
+inner html show content of the element as a string, including any HTML tags and attributes.
+for example, if you have a div element with some text and a child element,
+the innerHTML property will return the entire HTML structure as a string.
+You can also use innerHTML to set the content of an element by assigning a new string value
+to the innerHTML property. This will replace the existing content of the element with the new HTML
+structure you provide.
+
+**********innerText is used to get or set the text content of an element.
+it retrieves or modifies the text within an element, excluding any HTML tags or attributes.
+The innerText property returns the visible text content of an element, ignoring any HTML tags.
+For example, if you have a div element with some text and a child element,
+the innerText property will return only the text content, without any HTML structure.
+You can also use innerText to set the text content of an element by assigning a new string value
+to the innerText property. This will replace the existing text content of the element with the new text you provide.
+
+*********innerContent is used to get or set the content of an element, including both text and HTML.
+The innerContent property allows you to manipulate the content of an element, including both text and HTML
+structure. It is similar to innerHTML, but it also includes the text content of the element
+without any HTML tags.
+for example, if you have a div element with some text and a child element,
+the innerContent property will return the entire content as a string, including both the text and HTML
+structure. You can also use innerContent to set the content of an element by assigning a newstring value
+to the innerContent property. This will replace the existing content of the element with the new content you provide,
+including both text and HTML structure.
+
+******some important selectors in dom
+1. getElementById: This method selects an element by its unique ID.
+2. getElementsByClassName: This method selects all elements with a specific class name.
+querySelector: This method selects the first element that matches a specified CSS selector.
+3. querySelectorAll: This method selects all elements that match a specified CSS selector.
+syntax:
+document.getElementById("elementId");
+document.getElementsByClassName("className");   
+document.querySelector("selector");
+document.querySelectorAll("selector");
+
+
+*********querySelectorAll is a method in the Document Object Model (DOM) that allows you to select all elements in a document that match a specified CSS selector. It returns a NodeList of all matching elements, which can be iterated over or accessed by index.
+You can use querySelectorAll to select elements based on their tag name, class name, ID or any other valid CSS selector.
+For example, if you want to select all paragraphs in a document, you can use the followingquerySelectorAll method:
+const paragraphs = document.querySelectorAll("p");
+This will return a NodeList containing all paragraph elements in the document. You can then loop through
+the NodeList to access each paragraph element individually or apply styles or modifications to them.
+
+-->
 
