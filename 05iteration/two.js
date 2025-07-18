@@ -7,7 +7,7 @@ console.log(val);
 }) 
 //callback function   
 
-// using arrow function
+// using arrow function 
 arr.forEach((val) => {
   console.log('= '+val);
 });

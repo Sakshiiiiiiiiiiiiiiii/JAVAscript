@@ -48,12 +48,17 @@ const books=[
 ];
 
 const userBooks=books.filter((book) =>book.year >= 2025);
-console.log(userBooks);
+// console.log(userBooks);
 // this will return an array of books that were published in or after 2025
 // The filter method is used to create a new array with all elements that pass the test implemented
 // by the provided function. In this case, the function checks if the year of the book is greater than or equal to 2025.
 // The filter method does not modify the original array,
 // it creates a new array with the filtered elements.
+
+const userbook=books.filter((book)=>book.title==="Book 1");
+//console.log(userbook);
+
+
 
 
 
