@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom - two</title>
+  
+</head>
+<body>
+    <div class="main">
+        <div class="day">monday</div>
+        <div class="day">tuesday</div>
+        <div class="day">wednesday</div>
+        <div class="day">thursday</div>
+        <div class="day">friday</div>
+        <div class="day">Sat</div>
+
+    </div>
+</body>
+<script>
+
+ let className=document.querySelector('.main')
+console.log(className);
+
+let childs=className.children;
+console.log(childs)
+ console.log(childs[1].innerText);
+
+for(let i=0; i<childs.length; i++){
+  childs[i].style.color="pink"
+  let allnode=childs[i].innerText;
+ 
+    console.log(allnode);
+
+} 
+
+ childs[1].style.color="red"
+console.log(className.firstElementChild)
+ console.log(className.lastElementChild);
+</script>
+</html>

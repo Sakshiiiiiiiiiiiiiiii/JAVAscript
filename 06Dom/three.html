@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let divbox=document.createElement('div')
+        console.log(divbox);
+        divbox.className="main"
+        divbox.id="myid"
+        divbox.setAttribute('title','myattribute')
+    //  divbox.innerText="hi my name is sakshi"
+        let mytext=document.createTextNode('my name is sakshi')
+        divbox.appendChild(mytext)
+        document.body.appendChild(divbox)
+        
+
+
+    </script>
+</body>
+</html>
