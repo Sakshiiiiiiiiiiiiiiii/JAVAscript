@@ -6,11 +6,13 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- how add div using javascript -->
     <script>
         let divbox=document.createElement('div')
         console.log(divbox);
         divbox.className="main"
-        divbox.id="myid"
+        // divbox.id="myid"
+        divbox.id=Math.round(Math.random()*10+1);// random id 
         divbox.setAttribute('title','myattribute')
 //   divbox.innerText="hi my name is sakshi"
         let mytext=document.createTextNode('my name is sakshi')
